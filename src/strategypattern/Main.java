@@ -4,6 +4,7 @@ public class Main
 {
     public static void main(String[] args){
         testFlyingBehaviours();
+        testDrivingBehaviours();
     }
     
     public static void testFlyingBehaviours(){
@@ -14,5 +15,15 @@ public class Main
         Vehicle chopper = new Chopper();
         System.out.println("Chopper: ");
         chopper.fly();
+    }
+    
+    public static void testDrivingBehaviours(){
+        Vehicle car = new Car();
+        System.out.println("Car: ");
+        car.drive();
+        
+        Vehicle plane = new Plane();
+        System.out.println("Plane: ");
+        plane.drive();
     }
 }
