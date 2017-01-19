@@ -1,4 +1,4 @@
-package strategypattern;
+package strategypattern.flying;
 
 public class FlyWithWings implements IFlyingBehaviour
 {

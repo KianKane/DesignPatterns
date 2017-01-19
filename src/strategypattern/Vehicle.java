@@ -1,5 +1,7 @@
 package strategypattern;
 
+import strategypattern.flying.IFlyingBehaviour;
+
 public class Vehicle
 {
     protected IFlyingBehaviour flyingBehaviour;
