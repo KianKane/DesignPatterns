@@ -7,7 +7,7 @@ public class Main
         testDrivingBehaviours();
     }
     
-    public static void testFlyingBehaviours(){
+    private static void testFlyingBehaviours(){
         System.out.println("\n--- Testing Flying Behaviours ---");
         Vehicle plane = new Plane();
         System.out.println("Plane: ");
@@ -18,7 +18,7 @@ public class Main
         chopper.fly();
     }
     
-    public static void testDrivingBehaviours(){
+    private static void testDrivingBehaviours(){
         System.out.println("\n--- Testing Driving Behaviours ---");
         Vehicle car = new Car();
         System.out.println("Car: ");
