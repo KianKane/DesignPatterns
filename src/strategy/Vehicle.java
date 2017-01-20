@@ -1,7 +1,7 @@
-package strategypattern;
+package strategy;
 
-import strategypattern.flying.IFlyingBehaviour;
-import strategypattern.driving.IDrivingBehaviour;
+import strategy.flying.IFlyingBehaviour;
+import strategy.driving.IDrivingBehaviour;
 
 public class Vehicle
 {

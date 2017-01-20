@@ -1,6 +1,6 @@
-package strategypattern;
+package strategy;
 
-import strategypattern.flying.FlyWithRotor;
+import strategy.flying.FlyWithRotor;
 
 public class Chopper extends Vehicle
 {

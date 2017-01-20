@@ -1,7 +1,7 @@
-package strategypattern;
+package strategy;
 
-import strategypattern.flying.FlyWithWings;
-import strategypattern.driving.DriveOnRunway;
+import strategy.flying.FlyWithWings;
+import strategy.driving.DriveOnRunway;
 
 public class Plane extends Vehicle
 {

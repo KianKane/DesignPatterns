@@ -1,4 +1,4 @@
-package strategypattern.driving;
+package strategy.driving;
 
 public interface IDrivingBehaviour
 {

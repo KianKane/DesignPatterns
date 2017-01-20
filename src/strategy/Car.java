@@ -1,6 +1,6 @@
-package strategypattern;
+package strategy;
 
-import strategypattern.driving.DriveOnRoad;
+import strategy.driving.DriveOnRoad;
 
 public class Car extends Vehicle
 {

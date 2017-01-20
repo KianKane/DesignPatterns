@@ -1,4 +1,4 @@
-package strategypattern.driving;
+package strategy.driving;
 
 public class DriveOnRunway implements IDrivingBehaviour
 {
